@@ -1,0 +1,8 @@
+[bulid]
+functions = "netlify/functions"
+
+[[redirects]]
+force = true
+from = "/*"
+to = "/.netlify/functions/app/:splat"
+status = 200
